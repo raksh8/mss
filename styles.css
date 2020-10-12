@@ -127,6 +127,7 @@ img {
 }
 
 .pre-achieve{
+    width: 100vw;
     background-image: linear-gradient(to right, rgba(32, 28, 28, 0.979), rgb(113, 13, 180));
 
 
@@ -267,14 +268,14 @@ img {
 }
 body {
   font-family: sans-serif;
-  padding-left: 5px;
+  padding-left: 0;
 }
 nav {
   position: sticky;
   top: 0%;
   background: #0082e6;
   height: 80px;
-  width: 100%;
+  width: 100vw;
   justify-content: center;
   align-content: center;
   z-index: 888;
@@ -399,6 +400,7 @@ a:hover {
 } */
 
 .box-shadow {
+  width: 100vw;
   margin: 0;
   padding: 20px;
   display: flex;
